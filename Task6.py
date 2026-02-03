@@ -1,4 +1,7 @@
-
+#A function that receives two parameters:
+#the diameter of a round pizza in centimeters and the price of the pizza in euros.
+def price_size(diameter_cm, price):
+    
 #The function calculates and returns the unit price of the pizza per square meter.
     price_per_sq_m= price/(3.1416*((diameter_cm/100)/2)**2)
     return price_per_sq_m
@@ -19,3 +22,4 @@ elif Pizza_01>Pizza_02:
     print("Pizza_02 is value for money.")
 else:
     print("Both Pizza_01 and Pizza_02 are equal.")
+
